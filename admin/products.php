@@ -115,7 +115,7 @@ if (isset($_POST['submit'])) {
 
                                           echo'<td>
 											<a href="#" title="Edit"><img src="resources/images/icons/pencil.png" alt="Edit" /></a>
-										 <a href="deleteproducts.php" title="Delete"><img src="resources/images/icons/cross.png" alt="Delete" /></a> 
+											<a href="deleteproducts.php?id='.$row['id'].'" title="Delete"><img src="resources/images/icons/cross.png" alt="Delete" /></a> 
 										 <a href="#" title="Edit Meta"><img src="resources/images/icons/hammer_screwdriver.png" alt="Edit Meta" /></a>
 										  </td>';
 										  echo"</tr>";
