@@ -54,6 +54,14 @@
                         <th>Total</th>
                       </tr>
                     </thead>
+
+                    <?php
+									 //$sql = "SELECT * fROM product";
+									 //$result = $conn->query($sql);
+									 //if($result->num_rows >0) {
+
+									//	while ($row = $result->fetch_assoc()) {
+									?>
                     <tbody>
                       <tr>
                         <td><a class="remove" href="#"><fa class="fa fa-close"></fa></a></td>

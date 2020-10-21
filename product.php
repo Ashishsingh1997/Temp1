@@ -80,8 +80,8 @@
                 <li>
                   <figure>
 
-                    <a class="aa-product-img" href="#"><img src="<?php echo $pimage?>" height="100px" width="100px"></a>
-                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
+                    <a class="aa-product-img" href="#"><img src="<?php echo $pimage?>" height="200px" width="200px"></a>
+                    <a class="aa-add-card-btn"href="product-detail.php?id=<?php echo $row['id']?>"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#"><?php echo $pname ?></a></h4>
                       <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
